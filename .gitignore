@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.db
+results/*.json
+results/*.jsonl
+!results/.gitkeep
+
+# Private/local study materials and generated artifacts are intentionally excluded
+# from the public source repository.
+AGENTS.md
+EXPERIMENT_PROTOCOL.md
+benchmarks/
+data/
+legacy/
+results/
